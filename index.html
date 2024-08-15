@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Store Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> Grocery </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#about">about</a>
+            <a href="#review">review</a>
+            <a href="#blog">blog</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-basket"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- shopping cart -->
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/blakberry.jpeg" alt="">
+                <div class="content">
+                    <h3>Black Berries</h3>
+                    <span class="price">&#8377 100 Kg</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/avocado.webp" alt="">
+                <div class="content">
+                    <h3>Avocado</h3>
+                    <span class="price">&#8377 70 Kg</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/pexels-photo-209439.jpeg" alt="">
+                <div class="content">
+                    <h3>Apple</h3>
+                    <span class="price">&#8377 40 Kg</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/kanis.webp" alt="">
+                <div class="content">
+                    <h3>Corn</h3>
+                    <span class="price">&#8377 100 Kg</span>
+                </div>
+            </div>
+            <h3 class="total"> total: <span> &#8377 310</span></h3>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <!-- end -->
+
+        <!-- login -->
+
+        <form action="" class="login-form">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#" class="btn"> login </a>
+
+        </form>
+
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>buy best <span> organic product </span> online </h3>
+            <a href="#" class="btn"> get yours now </a>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- banner -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="images/banner1.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>Vegetables</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner2.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>fruits</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner3.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>assorted</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/mango.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Lemon</h3>
+                    <div class="price">&#8377 800 Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/onion1.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Carrot</h3>
+                    <div class="price">&#8377 60 Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/potato.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Potato</h3>
+                    <div class="price">&#8377 80 Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <div class="price">&#8377 50 Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/chilli.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chilli</h3>
+                    <div class="price">&#8377 120 Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/carrot.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Carrot</h3>
+                    <div class="price">&#8377 100 Kg</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about </span> us </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>we make organic food in market</h3>
+                <div class="divider"></div>
+                <p>Organic food is produced without synthetic pesticides, herbicides, or fertilizers, promoting a healthier environment and potentially higher nutritional value. However, its higher cost and debated scientific benefits create a nuanced discussion around its adoption and impact.</p>
+                <p>And we Collect the Organic food from verified farmers and provide direct to the customer </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+
+            <div class="image">
+                <img src="images/about2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <p>"Fresh produce, hassle-free shopping, and prompt delivery make this app a game-changer, absolutely love it!"</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/man3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Sahil thite</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>"Convenient, user-friendly, and clean interface; reliable delivery, fresh products, and excellent customer service, highly recommended!"</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/man2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Shreyash Shitole</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>"Easy navigation, wide selection, and secure payment options; a seamless grocery shopping experience, every time!"                    </p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/women1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Vidya Ranpise</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>"Hygenic Grocery App exceeds expectations with quality products, fast delivery, and top-notch customer support, impressive!"
+                    </p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/man1.webp" alt="">
+                        <div class="user-info">
+                            <h3>Pranav Wagh</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>"Organic options, sales alerts, and loyalty rewards; this app makes healthy shopping easy and rewarding!"
+                    </p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/man1.webp" alt="">
+                        <div class="user-info">
+                            <h3>Yash Badhekar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <p>"Intuitive design, accurate orders, and friendly customer service; a reliable and enjoyable grocery shopping experience!"</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/man4.webp" alt="">
+                        <div class="user-info">
+                            <h3>Rahul Tagad</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- blog -->
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> our <span> blog</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog1.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> Dr.A.K.Narayan </a>
+                    </div>
+                    <h3>Combiantion for diabetes patient</h3>
+                    <p>A diabetes patient's diet should be balanced, low in sugar and refined carbs, and high in fiber and nutrients.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog2.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>Dr.K.N.Kumar</a>
+                    </div>
+                    <h3>healthy vegetable for Weight Losing </h3>
+                    <p>Sustainable weight loss combines a balanced diet, regular exercise, and lifestyle changes, focusing on progress, not quick fixes or fads.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog3.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> Dr.Nandini A.S. </a>
+                    </div>
+                    <h3>healthy vegetables for High Energy </h3>
+                    <p>Leafy greens like spinach, kale, and broccoli, as well as sweet potatoes, carrots, and beets, are rich in energy-boosting nutrients.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p></p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+91 7734589868</p>
+                <a href="#" class="link">organicagri@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>Wafgaon Khed <br>
+                Pune <br>
+                Maharastra India 410512
+                </p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span> Aditya Karale</span> all rights reserved!</div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
